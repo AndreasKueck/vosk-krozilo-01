@@ -6,7 +6,7 @@ export const Header = () => {
         <div className="header">
             <div className="header-application-title-container">
                 <img src="./assets/icons/flect.png" className="header-application-title-logo"></img>
-                <div className="header-application-title-text">Eksterrete transskribi</div>
+                <div className="header-application-title-text">Eksterrete transskribi </div>
             </div>
 
             <div className="header-button-container">
