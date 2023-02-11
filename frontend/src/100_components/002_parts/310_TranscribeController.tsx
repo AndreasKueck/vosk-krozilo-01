@@ -35,7 +35,7 @@ export const TranscribeController = () => {
         return (
             <div className="sidebar-content-row-3-7">
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-label">Language:</div>
+                    <div className="sidebar-content-row-label">Lingvo:</div>
                 </div>
                 <div className="sidebar-content-item">
                     {selector}
@@ -68,7 +68,7 @@ export const TranscribeController = () => {
         return (
             <div className="sidebar-content-row-3-7">
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-label">InputType:</div>
+                    <div className="sidebar-content-row-label">Enigo-tipo:</div>
                 </div>
                 <div className="sidebar-content-item">
                     {selector}
@@ -84,7 +84,7 @@ export const TranscribeController = () => {
         }
         return (
             <div className="sidebar-content-row-3-7">
-                <div className="sidebar-content-row-label">Mic:</div>
+                <div className="sidebar-content-row-label">Mikrofono:</div>
                 <div className="sidebar-content-row-select">
                     <DeviceSelector deviceType={"audioinput"}></DeviceSelector>
                 </div>
@@ -102,7 +102,7 @@ export const TranscribeController = () => {
                 <div className="sidebar-content-row-label"></div>
                 <div className="sidebar-content-row-select">
                     <div className="sidebar-content-row-buttons">
-                        <div className="sidebar-content-row-button" onClick={() => onChooseFileClicked()}>Load File</div>
+                        <div className="sidebar-content-row-button" onClick={() => onChooseFileClicked()}>Shargi dosieron</div>
                     </div>
                 </div>
             </div>
@@ -144,23 +144,23 @@ export const TranscribeController = () => {
         let buttonAction: () => void = () => { }
         switch (frontendManagerState.transcribeStatus) {
             case "not_initialized":
-                statusMessage = "not initialized"
-                buttonMessage = "start"
+                statusMessage = "ne iniciatita"
+                buttonMessage = "komenci"
                 buttonAction = () => { onStartClicked() }
                 break
             case "initializing":
-                statusMessage = "initializing"
-                buttonMessage = "wait..."
+                statusMessage = "inicianta"
+                buttonMessage = "atendi..."
                 buttonAction = () => { }
                 break
             case "recording":
-                statusMessage = "recording..."
-                buttonMessage = "stop"
+                statusMessage = "registranta..."
+                buttonMessage = "halti"
                 buttonAction = () => { onStopClicked() }
                 break
             case "stop":
-                statusMessage = "ready"
-                buttonMessage = "start"
+                statusMessage = "preta"
+                buttonMessage = "komenci"
                 buttonAction = () => { onStartClicked() }
                 break
         }
@@ -183,10 +183,10 @@ export const TranscribeController = () => {
         return (
             <div className="sidebar-content-row-7-3">
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-label">clear setting </div>
+                    <div className="sidebar-content-row-label">forvishi agordon </div>
                 </div>
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-button" onClick={() => applicationSettingState.clearLocalStorage()}>clear</div>
+                    <div className="sidebar-content-row-button" onClick={() => applicationSettingState.clearLocalStorage()}>forvishi</div>
                 </div>
             </div>
         )
@@ -196,10 +196,10 @@ export const TranscribeController = () => {
         return (
             <div className="sidebar-content-row-7-3">
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-label">clear text </div>
+                    <div className="sidebar-content-row-label">forvishi tekston </div>
                 </div>
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-button" onClick={() => frontendManagerState.clearResult()}>clear</div>
+                    <div className="sidebar-content-row-button" onClick={() => frontendManagerState.clearResult()}>forvishi</div>
                 </div>
             </div>
         )
