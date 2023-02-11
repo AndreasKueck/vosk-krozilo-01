@@ -43,19 +43,16 @@ const FrontPageDescriptionEn = () => {
     return (
         <div className="front-description">
             <p>
-                Transskribu vochojn per via krozilo!
+                Transskribu vochon per via krozilo!
             </p>
             <p>
-                This application run on web browser and there is no need to install a dedicated application.  Also, since no communication with the server occurs after loaded, there is no need to worry about communication load.
+                Chi tiu aplikajho funkcias per krozilo, kaj ne estas necese, instali dedichitan aplikajhon. Krome, char neniu komunikado kun la servilo okazas post shargo, ne estas necese, zorgi pri komunika shargo.
             </p>
             <p>
-                Usage and source code is in <a href="https://github.com/w-okada/vosk-browser-ts">the repository</a>
+                Uzado kaj fontkodo estas en <a href="https://github.com/AndreasKueck/vosk-krozilo-01">tiu deponejo</a>.
             </p>
-            <p className="front-description-strong">please support me! </p>
             <p>
-                <a href="https://www.buymeacoffee.com/wokad">
-                    <img className="front-description-img" src="./assets/img/coffee.png"></img>
-                </a>
+                Tio chi estas adapto kreita surbaze de la originalo publikigita en <a href="https://github.com/w-okada/vosk-browser-ts">tiu deponejo</a> de <a href="https://github.com/w-okada">w-okada</a>.
             </p>
         </div>
     );
@@ -69,7 +66,7 @@ const FrontPageDisclaimerJp = () => {
 };
 const FrontPageDisclaimerEn = () => {
     return (
-        <div className="front-disclaimer">Disclaimer: In no event will we be liable for any direct, indirect, consequential, incidental, or special damages resulting from the use or inability to use this software.</div>
+        <div className="front-disclaimer">Malgarantio: En neniu okazo ni respondecas pri iuj rektaj, nerektaj, sekvaj, malutilaj au specialaj difektoj rezultantaj de la uzo de chi tiun programaro au malkapablo ghin uzi.</div>
     );
 };
 
@@ -83,7 +80,7 @@ const FrontPageNoteJp = () => {
 };
 const FrontPageNoteEn = () => {
     return (
-        <p>This software uses <a href="https://github.com/ccoreilly/vosk-browser">vosk-browser</a></p>
+        <p>Tiu chi programaro uzas <a href="https://github.com/ccoreilly/vosk-browser">vosk-browser</a>.</p>
     );
 };
 
@@ -100,7 +97,7 @@ const AppRootStateProviderWrapper = () => {
 
         return (
             <div className="front-container">
-                <div className="front-title">Offline Transcribe</div>
+                <div className="front-title">Eksterrete transskribi</div>
 
                 {description}
 
@@ -110,9 +107,9 @@ const AppRootStateProviderWrapper = () => {
                         setFirstTouch(true);
                     }}
                 >
-                    Click to start
+                    Klaki por komenci
                 </div>
-                <div className="front-note">Tested: Windows 11 + Chrome</div>
+                <div className="front-note">Provitaj: Windows 11 + Chrome</div>
 
                 {disclaimer}
 
@@ -123,7 +120,7 @@ const AppRootStateProviderWrapper = () => {
     } else if (deviceManagerState.audioInputDevices.length === 0) {
         return (
             <>
-                <div className="start-button">Loading Devices...</div>
+                <div className="start-button">Sharganta disponajhojn...</div>
             </>
         );
     } else {
