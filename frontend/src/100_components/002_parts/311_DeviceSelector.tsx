@@ -27,11 +27,11 @@ export const DeviceSelector = (props: DeviceManagerProps) => {
 
     const currentValue = useMemo(() => {
         if (props.deviceType === "audioinput") {
-            return deviceManagerState.audioInputDeviceId || "none";
+            return deviceManagerState.audioInputDeviceId || "neniu";
         } else if (props.deviceType === "videoinput") {
-            return deviceManagerState.videoInputDeviceId || "none";
+            return deviceManagerState.videoInputDeviceId || "neniu";
         } else {
-            return deviceManagerState.audioOutputDeviceId || "none";
+            return deviceManagerState.audioOutputDeviceId || "neniu";
         }
     }, [deviceManagerState.audioInputDeviceId, deviceManagerState.videoInputDeviceId, deviceManagerState.audioOutputDeviceId]);
 
@@ -76,7 +76,7 @@ export const DeviceSelector = (props: DeviceManagerProps) => {
         return selector;
     };
     return (
-        <Suspense fallback={<>device loading...</>}>
+        <Suspense fallback={<>disponajho shargighanta...</>}>
             <Wrapper></Wrapper>
         </Suspense>
     );
