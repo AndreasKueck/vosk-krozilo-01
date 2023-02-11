@@ -29,7 +29,7 @@ export const RightSidebar = () => {
                 {sidebarAccordionScreenRecorderControllerCheckBox.trigger}
                 <div className="sidebar-partition">
                     <div className="sidebar-header">
-                        <div className="sidebar-header-title">Transcribe Setting</div>
+                        <div className="sidebar-header-title">Por-transskriba agordo</div>
                         <div className="sidebar-header-caret"> {accodionButtonForScreenRecorderController}</div>
                     </div>
                     <TranscribeController />
