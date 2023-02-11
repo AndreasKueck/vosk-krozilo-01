@@ -149,7 +149,7 @@ export const TranscribeController = () => {
                 buttonAction = () => { onStartClicked() }
                 break
             case "initializing":
-                statusMessage = "inicianta"
+                statusMessage = "iniciighanta"
                 buttonMessage = "atendi..."
                 buttonAction = () => { }
                 break
@@ -167,7 +167,7 @@ export const TranscribeController = () => {
         return (
             <div className="sidebar-content-row-7-3">
                 <div className="sidebar-content-item">
-                    <div className="sidebar-content-row-label">Status: {statusMessage} </div>
+                    <div className="sidebar-content-row-label">Statuso: {statusMessage} </div>
                 </div>
                 <div className="sidebar-content-item">
                     <div className="sidebar-content-row-buttons">
