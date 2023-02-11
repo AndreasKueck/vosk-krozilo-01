@@ -67,7 +67,7 @@
             "url": "./vosk-krozilo-01/assets/models/vosk-model-small-uk-v3-nano.tar.gz"
         },
         {
-            "lang": "Kazahha(malgranxa)",
+            "lang": "Kazahha(malgranda)",
             "size": "42M",
             "url": "./vosk-krozilo-01/assets/models/vosk-model-small-kz-0.15.tar.gz"
         },
