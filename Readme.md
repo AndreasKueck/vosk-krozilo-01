@@ -1,4 +1,4 @@
-Offline Transcribe
+Eksterrete transskribi
 ---
 
 
@@ -6,15 +6,15 @@ Offline Transcribe
 
 
 
-[Demo_with_voice](https://www.youtube.com/watch?v=dE4tlfyxyfs)
+[Demonstracio kun vocho](https://www.youtube.com/watch?v=dE4tlfyxyfs)
 
-# Demo
+# Demonstracio
 
 https://w-okada.github.io/vosk-browser-ts/
 
-# Usage
-(1) Select Language
+# Uzado
+(1) Elektu lingvon
 
-(2) Select Input source. You can select movie file, microphone, system audio.
+(2) Elektu enigo-fonton: "file" (dosieron), "mic" (mikrofonon), "system" (sistemon).
 
-(3) then push start button to transcribe 
+(3) Poste alklaku butonon "komenci", por transskribi. 
