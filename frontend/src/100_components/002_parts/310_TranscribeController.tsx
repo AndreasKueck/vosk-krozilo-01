@@ -144,12 +144,12 @@ export const TranscribeController = () => {
         let buttonAction: () => void = () => { }
         switch (frontendManagerState.transcribeStatus) {
             case "not_initialized":
-                statusMessage = "ne iniciatita"
+                statusMessage = "ne iniciatinta sin"
                 buttonMessage = "komenci"
                 buttonAction = () => { onStartClicked() }
                 break
             case "initializing":
-                statusMessage = "iniciighanta"
+                statusMessage = "iniciatanta sin"
                 buttonMessage = "atendi..."
                 buttonAction = () => { }
                 break
