@@ -23,18 +23,18 @@ class AudioStreamer extends Duplex {
 }
 
 export const TRANSCRIBE_STATUS = {
-    not_initialized: "not_initialized",
-    initializing: "initializing",
-    stop: "stop",
-    recording: "recording",
-    converting: "converting",
+    not_initialized: "ne iniciatita",
+    initializing: "inicianta",
+    stop: "halti",
+    recording: "registranta",
+    converting: "konvertanta",
 } as const
 export type TRANSCRIBE_STATUS = typeof TRANSCRIBE_STATUS[keyof typeof TRANSCRIBE_STATUS]
 
 export const InputTypes = {
-    "file": "file",
-    "mic": "mic",
-    "system": "system"
+    "file": "dosiero",
+    "mic": "mikrofono",
+    "system": "sistemo"
 } as const
 export type InputTypes = typeof InputTypes[keyof typeof InputTypes]
 
