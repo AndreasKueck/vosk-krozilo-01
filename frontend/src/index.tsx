@@ -43,7 +43,7 @@ const FrontPageDescriptionEn = () => {
     return (
         <div className="front-description">
             <p>
-                Transcribe voices with your browser!
+                Transskribu vochojn per via krozilo!
             </p>
             <p>
                 This application run on web browser and there is no need to install a dedicated application.  Also, since no communication with the server occurs after loaded, there is no need to worry about communication load.
