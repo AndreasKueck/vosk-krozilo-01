@@ -1,101 +1,101 @@
 {
-    "app_title": "vosk-krozilo-01",
+    "app_title": "vosk-browser-ts",
     "langs": [
         {
-            "lang": "Angla(malgranda)",
+            "lang": "English(small)",
             "size": "40M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-en-us-0.15.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-en-us-0.15.tar.gz"
         },
         {
-            "lang": "Chinna(malgranda)",
+            "lang": "Chinese(small)",
             "size": "42M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-cn-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-cn-0.22.tar.gz"
         },
         {
-            "lang": "Rusa(malgranda)",
+            "lang": "Russian(small)",
             "size": "45M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-ru-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-ru-0.22.tar.gz"
         },
         {
-            "lang": "Franca(malgranda)",
+            "lang": "French(small)",
             "size": "41M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-fr-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-fr-0.22.tar.gz"
         },
         {
-            "lang": "Germana(malgranda)",
+            "lang": "German(small)",
             "size": "45M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-de-0.15.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-de-0.15.tar.gz"
         },
         {
-            "lang": "Hispana(malgranda)",
+            "lang": "Spanish(small)",
             "size": "39M",
-            "url": "./vosk-malgranda/assets/models/vosk-model-small-es-0.42.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-es-0.42.tar.gz"
         },
         {
-            "lang": "Turka(malgranda)",
+            "lang": "Turkish(small)",
             "size": "35M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-tr-0.3.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-tr-0.3.tar.gz"
         },
         {
-            "lang": "Vjetnama(malgranda)",
+            "lang": "Vietnamese(small)",
             "size": "32M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-vn-0.3.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-vn-0.3.tar.gz"
         },
         {
-            "lang": "Itala(malgranda)",
+            "lang": "Italian(small)",
             "size": "48M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-it-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-it-0.22.tar.gz"
         },
         {
-            "lang": "Nederlanda(malgranda)",
+            "lang": "Dutch(small)",
             "size": "39M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-nl-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-nl-0.22.tar.gz"
         },
         {
-            "lang": "Kataluna(malgranda)",
+            "lang": "Catalan(small)",
             "size": "42M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-ca-0.4.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-ca-0.4.tar.gz"
         },
         {
-            "lang": "Irana(malgranda)",
+            "lang": "Farsi(small)",
             "size": "47M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-fa-0.4.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-fa-0.4.tar.gz"
         },
         {
-            "lang": "Ukraina(malgranda-nana)",
+            "lang": "Ukrainian(small-nano)",
             "size": "73M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-uk-v3-nano.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-uk-v3-nano.tar.gz"
         },
         {
-            "lang": "Kazahha(malgranda)",
+            "lang": "Kazakh(small)",
             "size": "42M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-kz-0.15.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-kz-0.15.tar.gz"
         },
         {
-            "lang": "Esperanto(malgranda)",
+            "lang": "Esperanto(small)",
             "size": "42M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-eo-0.42.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-eo-0.42.tar.gz"
         },
         {
-            "lang": "Hindia(malgranda)",
+            "lang": "Hindi(small)",
             "size": "42M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-hi-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-hi-0.22.tar.gz"
         },
         {
-            "lang": "Chehha(malgranda)",
+            "lang": "Czech(small)",
             "size": "44M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-cs-0.4-rhasspy.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-cs-0.4-rhasspy.tar.gz"
         },
         {
-            "lang": "Pola(malgranda)",
+            "lang": "Polish(small)",
             "size": "50.5M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-pl-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-pl-0.22.tar.gz"
         },
         {
-            "lang": "Japana(malgranda)",
+            "lang": "Japanese(small)",
             "size": "48M",
-            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-ja-0.22.tar.gz"
+            "url": "./vosk-browser-ts/assets/models/vosk-model-small-ja-0.22.tar.gz"
         }
     ],
-    "default_lang": "Esperanto(malgranda)"
+    "default_lang": "Japanese(small)"
 }
