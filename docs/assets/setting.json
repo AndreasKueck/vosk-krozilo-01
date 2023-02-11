@@ -1,5 +1,5 @@
 {
-    "app_title": "vosk-browser-ts",
+    "app_title": "vosk-krozilo-01",
     "langs": [
         {
             "lang": "Angla(malgranda)",
@@ -97,5 +97,5 @@
             "url": "./vosk-krozilo-01/assets/models/vosk-model-small-ja-0.22.tar.gz"
         }
     ],
-    "default_lang": "Japana(malgranda)"
+    "default_lang": "Esperanto(malgranda)"
 }
