@@ -14,22 +14,22 @@
         {
             "lang": "Rusa(malgranda)",
             "size": "45M",
-            "url": "./krozilo-01/assets/models/vosk-model-small-ru-0.22.tar.gz"
+            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-ru-0.22.tar.gz"
         },
         {
             "lang": "Franca(malgranda)",
             "size": "41M",
-            "url": "./krozilo-01/assets/models/vosk-model-small-fr-0.22.tar.gz"
+            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-fr-0.22.tar.gz"
         },
         {
             "lang": "Germana(malgranda)",
             "size": "45M",
-            "url": "./krozilo-01/assets/models/vosk-model-small-de-0.15.tar.gz"
+            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-de-0.15.tar.gz"
         },
         {
             "lang": "Hispana(malgranda)",
             "size": "39M",
-            "url": "./krozilo-01/assets/models/vosk-model-small-es-0.42.tar.gz"
+            "url": "./vosk-krozilo-01/assets/models/vosk-model-small-es-0.42.tar.gz"
         },
         {
             "lang": "Turka(malgranda)",
