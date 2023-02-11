@@ -118,7 +118,7 @@ export const TranscribeController = () => {
                 <div className="sidebar-content-row-label"></div>
                 <div className="sidebar-content-row-select">
                     <div className="sidebar-content-row-buttons">
-                        <div className="sidebar-content-row-button" onClick={() => onChooseWindowClicked()}>select source</div>
+                        <div className="sidebar-content-row-button" onClick={() => onChooseWindowClicked()}>elekti fonton</div>
                     </div>
                 </div>
             </div>
