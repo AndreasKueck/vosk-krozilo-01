@@ -4,7 +4,7 @@ Eksterrete transskribi
 # Demonstracio
 https://AndreasKueck.github.io/vosk-krozilo-01/
 
-Originalo (kun angla uz-interfaco):
+Originalo (kun angla uzantinterfaco):
 https://w-okada.github.io/vosk-browser-ts/
 
 # Uzado
