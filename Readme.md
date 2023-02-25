@@ -16,3 +16,6 @@ https://w-okada.github.io/vosk-browser-ts/
 
 # Alternativoj
 [Vocho-al-teksto-transformo kaj inverse: rimedoj uzeblaj por Esperanto](https://medium.com/westphoenizier/vocho-al-teksto-transformo-kaj-inverse-rimedoj-uzeblaj-por-esperanto-8252965716a8)
+
+# Privateco
+Jen informoj pri la [privateco](https://jhau.de/privetco.html).
